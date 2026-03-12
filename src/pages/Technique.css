@@ -1,0 +1,176 @@
+.technique-page {
+  min-height: 100vh;
+}
+
+.page-header {
+  background: linear-gradient(135deg, var(--navy-medium), var(--navy-dark));
+  padding: 80px 0 60px;
+  border-bottom: 3px solid var(--tactical-blue);
+}
+
+.page-title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+  line-height: 1.1;
+}
+
+.page-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+}
+
+.technique-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.technique-section {
+  margin-bottom: 64px;
+}
+
+.technique-section h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--tactical-blue);
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.technique-section h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.technique-section p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.technique-section strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.key-terms {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.term {
+  background-color: var(--navy-medium);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  border-left: 4px solid var(--tactical-blue);
+}
+
+.term strong {
+  font-size: 1.25rem;
+  display: block;
+  color: var(--tactical-blue);
+}
+
+.technique-tip {
+  background-color: var(--navy-medium);
+  border-left: 4px solid var(--tactical-blue);
+  padding: 24px;
+  margin: 32px 0;
+  border-radius: 8px;
+}
+
+.technique-tip strong {
+  color: var(--tactical-blue);
+  font-size: 1.125rem;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.cadence {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: var(--tactical-blue) !important;
+  text-align: center;
+  padding: 24px;
+  background-color: var(--navy-medium);
+  border-radius: 8px;
+  margin: 32px 0 !important;
+  font-style: italic;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, var(--tactical-blue), var(--accent-red));
+  padding: 48px;
+  border-radius: 16px;
+  text-align: center;
+  margin-top: 80px;
+  color: white;
+}
+
+.cta-box h3 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.cta-box p {
+  font-size: 1.125rem;
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.cta-box .btn {
+  margin-top: 24px;
+  background-color: white;
+  color: var(--navy-darkest);
+}
+
+.cta-box .btn:hover {
+  background-color: var(--navy-darkest);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+  
+  .page-subtitle {
+    font-size: 1rem;
+  }
+  
+  .technique-section h2 {
+    font-size: 1.75rem;
+  }
+  
+  .technique-section h3 {
+    font-size: 1.25rem;
+  }
+  
+  .technique-section p {
+    font-size: 1rem;
+  }
+  
+  .key-terms {
+    grid-template-columns: 1fr;
+  }
+  
+  .cadence {
+    font-size: 1.25rem !important;
+  }
+  
+  .cta-box {
+    padding: 32px 24px;
+  }
+}

@@ -1,0 +1,256 @@
+.training-page {
+  min-height: 100vh;
+}
+
+.training-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 64px;
+}
+
+.training-intro h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--tactical-blue);
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.training-intro p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.training-programs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-bottom: 80px;
+}
+
+.program-card {
+  background-color: var(--navy-dark);
+  border: 2px solid var(--gray-dark);
+  border-radius: 16px;
+  padding: 40px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--tactical-blue);
+  box-shadow: 0 12px 32px rgba(37, 99, 235, 0.2);
+}
+
+.program-card.featured {
+  border-color: var(--tactical-blue);
+  background: linear-gradient(135deg, var(--navy-dark), var(--navy-medium));
+}
+
+.program-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: var(--tactical-blue);
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.program-card h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.program-price {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--tactical-blue);
+  margin-bottom: 24px;
+}
+
+.program-description {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.program-features {
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.program-features li {
+  padding: 12px 0;
+  padding-left: 28px;
+  position: relative;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--gray-dark);
+}
+
+.program-features li:last-child {
+  border-bottom: none;
+}
+
+.program-features li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--tactical-blue);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.program-card .btn {
+  width: 100%;
+  text-align: center;
+}
+
+.training-goals {
+  margin-bottom: 80px;
+}
+
+.training-goals h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--tactical-blue);
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.goal-card {
+  background-color: var(--navy-medium);
+  padding: 32px;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid var(--gray-dark);
+  transition: all 0.3s ease;
+}
+
+.goal-card:hover {
+  border-color: var(--tactical-blue);
+  transform: translateY(-4px);
+}
+
+.goal-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.goal-card h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.goal-time {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--tactical-blue);
+  margin-bottom: 16px;
+}
+
+.goal-card p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.training-cta {
+  background: linear-gradient(135deg, var(--tactical-blue), var(--accent-red));
+  padding: 64px;
+  border-radius: 16px;
+  text-align: center;
+  color: white;
+}
+
+.training-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.training-cta p {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+  opacity: 0.95;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-actions {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-actions .btn {
+  background-color: white;
+  color: var(--navy-darkest);
+}
+
+.cta-actions .btn:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+@media (max-width: 1024px) {
+  .training-programs {
+    grid-template-columns: 1fr;
+  }
+  
+  .goals-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .training-intro h2 {
+    font-size: 1.75rem;
+  }
+  
+  .training-intro p {
+    font-size: 1rem;
+  }
+  
+  .program-card {
+    padding: 24px;
+  }
+  
+  .training-goals h2 {
+    font-size: 1.75rem;
+  }
+  
+  .training-cta {
+    padding: 40px 24px;
+  }
+  
+  .training-cta h2 {
+    font-size: 1.75rem;
+  }
+  
+  .training-cta p {
+    font-size: 1rem;
+  }
+}
