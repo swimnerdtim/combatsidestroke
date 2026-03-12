@@ -39,10 +39,12 @@
 .hero-content-left {
   position: absolute;
   top: 50%;
-  left: 80px;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 2;
-  max-width: 600px;
+  text-align: center;
+  width: 100%;
+  padding: 0 40px;
 }
 
 .hero-title-white {
@@ -59,6 +61,7 @@
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .btn-blue {
@@ -163,9 +166,7 @@
 /* Mobile Responsive */
 @media (max-width: 1024px) {
   .hero-content-left {
-    left: 40px;
-    right: 40px;
-    max-width: none;
+    padding: 0 40px;
   }
   
   .hero-title-white {
@@ -188,8 +189,7 @@
 
 @media (max-width: 768px) {
   .hero-content-left {
-    left: 24px;
-    right: 24px;
+    padding: 0 24px;
   }
   
   .hero-title-white {

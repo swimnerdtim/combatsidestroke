@@ -8,7 +8,7 @@ function Home() {
       <section className="hero-fullwidth">
         <div className="hero-image-container">
           <img 
-            src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2000" 
+            src="https://images.unsplash.com/photo-1526491109672-74740652b963?q=80&w=2000" 
             alt="Combat Swimmer" 
             className="hero-bg-image"
           />
