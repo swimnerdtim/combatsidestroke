@@ -1,0 +1,26 @@
+[
+  {
+    "id": "navy-seal-pst-swim",
+    "title": "Crushing the SWIM Portion of the Navy SEAL PST",
+    "slug": "navy-seal-pst-swim",
+    "excerpt": "Everything you need to know to dominate the 450m/500yd swim portion of the Physical Screening Test.",
+    "date": "2024-01-15",
+    "category": "PST"
+  },
+  {
+    "id": "open-water-training",
+    "title": "Training and Preparation for Open Water",
+    "slug": "open-water-training",
+    "excerpt": "Most swimming at BUD/S happens in the 63-degree ocean. Learn how to swim straight, sight properly, and prepare for 2-mile ocean swims.",
+    "date": "2024-01-10",
+    "category": "Training"
+  },
+  {
+    "id": "buddy-towing",
+    "title": "How to Buddy Tow",
+    "slug": "buddy-towing",
+    "excerpt": "Master the lifesaving technique every SEAL must know. Learn proper towing technique and lifesaving procedures.",
+    "date": "2024-01-05",
+    "category": "Technique"
+  }
+]
