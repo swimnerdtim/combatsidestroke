@@ -7,7 +7,7 @@ function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3 className="footer-logo">COMBAT SIDE STROKE</h3>
+            <img src="/combatsidestroke/logo.png" alt="Combat Side Stroke" className="footer-logo-img" />
             <p className="footer-tagline">
               Become a force in the water.
             </p>

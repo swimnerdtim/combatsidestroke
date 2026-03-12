@@ -7,7 +7,7 @@ function Header() {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo">
-            <span className="logo-text">COMBAT SIDE STROKE</span>
+            <img src="/combatsidestroke/logo.png" alt="Combat Side Stroke" className="logo-img" />
           </Link>
           
           <nav className="nav">
