@@ -4,69 +4,50 @@ import './Home.css';
 function Home() {
   return (
     <div className="home-page">
-      <section className="hero">
-        <div className="hero-overlay"></div>
-        <div className="container-wide">
-          <div className="hero-content">
-            <h1 className="hero-title">BECOME A FORCE<br/>IN THE WATER.</h1>
-            <div className="hero-actions">
-              <Link to="/technique" className="btn btn-primary">
-                Learn the Technique
-              </Link>
-              <a href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" target="_blank" rel="noopener noreferrer" className="btn btn-accent">
-                Get Training
+      {/* Full-width hero with combat swimmer image */}
+      <section className="hero-fullwidth">
+        <div className="hero-image-container">
+          <img 
+            src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2000" 
+            alt="Combat Swimmer" 
+            className="hero-bg-image"
+          />
+          <div className="hero-overlay-dark"></div>
+        </div>
+        <div className="hero-content-left">
+          <h1 className="hero-title-white">BECOME A FORCE<br/>IN THE WATER.</h1>
+          <div className="hero-buttons">
+            <a href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" target="_blank" rel="noopener noreferrer" className="btn-blue">
+              JOIN THE CSS WORKOUT GROUP
+            </a>
+            <Link to="/training" className="btn-red">
+              12 WEEK CSS TRAINING PROGRAM
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Nate intro section */}
+      <section className="nate-intro">
+        <div className="intro-container">
+          <div className="intro-text-side">
+            <h2 className="intro-heading-lower">what up! my name is nate.</h2>
+            <h3 className="intro-subheading-lower">i help people become <em>special</em> in the water.</h3>
+            <div className="intro-buttons">
+              <a href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" target="_blank" rel="noopener noreferrer" className="btn-blue">
+                JOIN THE CSS WORKOUT GROUP
               </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section intro-section">
-        <div className="container">
-          <div className="intro-content">
-            <div className="intro-text">
-              <h2 className="intro-heading">what up! my name is nate.</h2>
-              <h3 className="intro-subheading">i help people become special in the water.</h3>
-              <p className="intro-description">
-                Combat Side Stroke (CSS) is the essential swimming technique for Navy SEALs and special operations forces. 
-                It's quiet, efficient, and powerful — designed for long-distance ocean swims while maintaining tactical awareness.
-              </p>
-              <p className="intro-description">
-                Whether you're preparing for BUD/S, improving your PST scores, or just want to master this unique stroke, 
-                I've got the training and technique breakdowns you need.
-              </p>
-              <div className="intro-stats">
-                <div className="stat">
-                  <div className="stat-number">5.5</div>
-                  <div className="stat-label">Mile Swim<br/>BUD/S Phase 3</div>
-                </div>
-                <div className="stat">
-                  <div className="stat-number">450m</div>
-                  <div className="stat-label">PST<br/>Swim Test</div>
-                </div>
-                <div className="stat">
-                  <div className="stat-number">∞</div>
-                  <div className="stat-label">Hours<br/>of Training</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section cta-section">
-        <div className="container">
-          <div className="cta-card">
-            <h2>Ready to Master CSS?</h2>
-            <p>Join the CSS workout group and get access to structured training programs, technique analysis, and everything you need to excel in the water.</p>
-            <div className="cta-actions">
-              <Link to="/technique" className="btn btn-secondary">
-                Learn the Technique
-              </Link>
-              <Link to="/training" className="btn btn-primary">
-                Start Training
+              <Link to="/training" className="btn-red">
+                12 WEEK CSS TRAINING PROGRAM
               </Link>
             </div>
+          </div>
+          <div className="intro-image-side">
+            <img 
+              src="/combatsidestroke/nate-photo.jpg" 
+              alt="Nate" 
+              className="nate-photo"
+            />
           </div>
         </div>
       </section>
