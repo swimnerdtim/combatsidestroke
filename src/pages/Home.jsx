@@ -9,18 +9,18 @@ function Home() {
         <div className="hero-image-bg"></div>
         <div className="hero-overlay"></div>
         <div className="hero-content-center">
-          <h1 className="hero-heading">BECOME A FORCE<br/>IN THE WATER.</h1>
+          <h1 className="hero-heading">Become a Force<br/>in the Water</h1>
           <div className="hero-ctas">
             <a 
               href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="cta-button cta-blue"
+              className="cta-button cta-primary"
             >
-              JOIN THE CSS WORKOUT GROUP
+              Join the CSS Workout Group
             </a>
-            <Link to="/training" className="cta-button cta-red">
-              12 WEEK CSS TRAINING PROGRAM
+            <Link to="/training" className="cta-button cta-secondary">
+              12 Week CSS Training Program
             </Link>
           </div>
         </div>
@@ -30,19 +30,19 @@ function Home() {
       <section className="nate-section">
         <div className="nate-container">
           <div className="nate-text">
-            <h2>what up! my name is nate.</h2>
-            <h3>i help people become <em>special</em> in the water.</h3>
+            <h2>What's up! My name is Nate.</h2>
+            <h3>I help people become <em>special</em> in the water.</h3>
             <div className="nate-ctas">
               <a 
                 href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="cta-button cta-blue"
+                className="cta-button cta-primary"
               >
-                JOIN THE CSS WORKOUT GROUP
+                Join the CSS Workout Group
               </a>
-              <Link to="/training" className="cta-button cta-red">
-                12 WEEK CSS TRAINING PROGRAM
+              <Link to="/training" className="cta-button cta-secondary">
+                12 Week CSS Training Program
               </Link>
             </div>
           </div>
