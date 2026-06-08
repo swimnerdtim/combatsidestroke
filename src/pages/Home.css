@@ -37,7 +37,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(to bottom, rgba(0, 8, 20, 0.6), rgba(0, 29, 61, 0.7));
   z-index: 1;
 }
 
@@ -50,13 +50,14 @@
 }
 
 .hero-heading {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 900;
   color: #fff;
-  line-height: 1.1;
+  line-height: 1;
   margin-bottom: 60px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 6px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 .hero-ctas {
@@ -82,23 +83,33 @@
 }
 
 .cta-blue {
-  background-color: #2563eb;
+  background-color: #0077b6;
   color: #fff;
+  border: 2px solid #0077b6;
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 
 .cta-blue:hover {
-  background-color: #1d4ed8;
-  transform: translateY(-2px);
+  background-color: #001d3d;
+  border-color: #ffd60a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(255, 214, 10, 0.3);
 }
 
 .cta-red {
-  background-color: #dc2626;
+  background-color: #c1121f;
   color: #fff;
+  border: 2px solid #c1121f;
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 
 .cta-red:hover {
-  background-color: #b91c1c;
-  transform: translateY(-2px);
+  background-color: #780000;
+  border-color: #ffd60a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(255, 214, 10, 0.3);
 }
 
 /* Nate Section */

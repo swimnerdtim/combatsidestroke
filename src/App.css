@@ -1,14 +1,15 @@
 :root {
-  --navy-darkest: #0a0f1a;
-  --navy-dark: #121827;
-  --navy-medium: #1a2332;
-  --gray-dark: #2a3544;
-  --gray-medium: #4a5568;
-  --tactical-blue: #2563eb;
-  --accent-red: #dc2626;
-  --text-primary: #f1f5f9;
-  --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
+  --navy-darkest: #000814;
+  --navy-dark: #001d3d;
+  --navy-medium: #003566;
+  --navy-bright: #0077b6;
+  --gold-accent: #ffd60a;
+  --gold-dark: #daa520;
+  --tactical-blue: #0077b6;
+  --accent-red: #c1121f;
+  --text-primary: #ffffff;
+  --text-secondary: #e0e0e0;
+  --text-muted: #a0a0a0;
 }
 
 * {
@@ -18,14 +19,13 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--navy-darkest);
   color: var(--text-primary);
-  line-height: 1.6;
+  line-height: 1.65;
+  font-weight: 400;
 }
 
 .app {
@@ -56,10 +56,11 @@ body {
 
 .section-title {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 16px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+  color: var(--text-primary);
 }
 
 .section-subtitle {
@@ -70,27 +71,29 @@ body {
 
 .btn {
   display: inline-block;
-  padding: 16px 32px;
-  font-size: 1rem;
-  font-weight: 600;
+  padding: 18px 40px;
+  font-size: 0.95rem;
+  font-weight: 700;
   text-decoration: none;
-  border-radius: 8px;
-  transition: all 0.3s ease;
+  border-radius: 2px;
+  transition: all 0.2s ease;
   border: none;
   cursor: pointer;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .btn-primary {
-  background-color: var(--tactical-blue);
+  background-color: var(--navy-bright);
   color: white;
+  border: 2px solid var(--navy-bright);
 }
 
 .btn-primary:hover {
-  background-color: #1d4ed8;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.3);
+  background-color: var(--navy-dark);
+  border-color: var(--gold-accent);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 119, 182, 0.4);
 }
 
 .btn-secondary {
@@ -107,12 +110,14 @@ body {
 .btn-accent {
   background-color: var(--accent-red);
   color: white;
+  border: 2px solid var(--accent-red);
 }
 
 .btn-accent:hover {
-  background-color: #b91c1c;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(220, 38, 38, 0.3);
+  background-color: #9a1018;
+  border-color: var(--gold-accent);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(193, 18, 31, 0.4);
 }
 
 .card {
