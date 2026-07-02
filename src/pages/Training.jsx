@@ -44,7 +44,7 @@ function Training() {
             </div>
 
             <div className="program-card">
-              <h3>Swimnerd App</h3>
+              <h3>Training App</h3>
               <div className="program-price">Custom Pricing</div>
               <p className="program-description">
                 Upload your stroke technique videos for professional evaluation, receive custom workouts, 
@@ -96,10 +96,10 @@ function Training() {
             </p>
             <div className="cta-actions">
               <a href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" target="_blank" rel="noopener noreferrer" className="btn btn-accent">
-                Get the Swimnerd App
+                Get the Training App
               </a>
               <a href="https://swimpractice.com" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
-                Visit Swimnerd.com
+                Online Coaching
               </a>
             </div>
           </div>

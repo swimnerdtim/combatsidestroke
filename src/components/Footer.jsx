@@ -33,15 +33,14 @@ function Footer() {
           <div className="footer-section">
             <h4>Get Training</h4>
             <div className="footer-links">
-              <a href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" target="_blank" rel="noopener noreferrer">Swimnerd App</a>
-              <a href="https://swimpractice.com" target="_blank" rel="noopener noreferrer">Swimnerd</a>
+              <a href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" target="_blank" rel="noopener noreferrer">Training App</a>
+              <a href="https://swimpractice.com" target="_blank" rel="noopener noreferrer">Online Coaching</a>
             </div>
           </div>
         </div>
         
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Combat Side Stroke. All rights reserved.</p>
-          <p className="presented-by">By <a href="https://swimnerd.com" target="_blank" rel="noopener noreferrer">Swimnerd</a></p>
         </div>
       </div>
     </footer>

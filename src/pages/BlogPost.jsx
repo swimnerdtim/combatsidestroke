@@ -68,11 +68,11 @@ function BlogPost() {
             <p>Join the Combat Side Stroke Workout Group</p>
             <p>
               To enhance your combat side stroke and make the most of your preparation, 
-              the Swimnerd app can be an invaluable tool. Receive custom workouts, upload your stroke technique videos for evaluation, 
+              our training app can be an invaluable tool. Receive custom workouts, upload your stroke technique videos for evaluation, 
               and learn everything there is to know about CSS from Coach Nate.
             </p>
             <a href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" target="_blank" rel="noopener noreferrer" className="btn btn-accent">
-              Download Swimnerd App
+              Download Training App
             </a>
           </div>
         </div>
