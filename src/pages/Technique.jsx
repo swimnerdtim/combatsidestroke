@@ -126,18 +126,7 @@ function Technique() {
               </p>
             </div>
 
-            <div className="cta-box">
-              <h3>What's Next?</h3>
-              <p>Join the Combat Side Stroke Workout Group</p>
-              <p>
-                To enhance your combat side stroke and make the most of your preparation, 
-                our training app can be an invaluable tool. Receive custom workouts, upload your stroke technique videos for evaluation, 
-                and learn everything there is to know about CSS from a professional swim coach.
-              </p>
-              <a href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" target="_blank" rel="noopener noreferrer" className="btn btn-accent">
-                Download Training App
-              </a>
-            </div>
+
 
           </div>
         </div>
