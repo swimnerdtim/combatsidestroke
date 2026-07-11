@@ -53,13 +53,6 @@ function BlogPost() {
           </Link>
           <div className="post-category">{post.category}</div>
           <h1 className="post-title">{post.title}</h1>
-          <div className="post-date">
-            {new Date(post.date).toLocaleDateString('en-US', { 
-              month: 'long', 
-              day: 'numeric', 
-              year: 'numeric' 
-            })}
-          </div>
         </div>
       </section>
 

@@ -21,7 +21,6 @@ function Blog() {
                 <h2 className="blog-title">{post.title}</h2>
                 <p className="blog-excerpt">{post.excerpt}</p>
                 <div className="blog-meta">
-                  <span className="blog-date">{new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
                   <span className="blog-read-more">Read More →</span>
                 </div>
               </Link>
