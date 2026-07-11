@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Technique from './pages/Technique';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
+import Videos from './pages/Videos';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/technique" element={<Technique />} />
+            <Route path="/videos" element={<Videos />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>
