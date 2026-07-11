@@ -1,3 +1,62 @@
+export const navySealSwimTrainingContent = (
+  <>
+    <p>
+      There's many different facets of swimming at BUD/S. Here are 8 categories you need to become proficient at before you head out to Coronado.
+    </p>
+
+    <h2>1. Treading</h2>
+    <p>
+      Navy SEALs must master treading water for long periods, often while wearing heavy gear. With and without fins. 
+      Training often involves hands-out-of-the-water drills and added weight.
+    </p>
+
+    <h2>2. Drown Proofing</h2>
+    <p>
+      This survival skill teaches SEALs how to remain calm and move efficiently while their hands and feet are tied. 
+      Techniques include bobbing, floating, and traveling.
+    </p>
+
+    <h2>3. Combat Side Stroke Without Fins</h2>
+    <p>
+      The Combat Side Stroke (CSS) is the preferred swimming technique. It combines elements of the sidestroke, freestyle, 
+      and breaststroke, making it an efficient, low-profile stroke that is stealthy.
+    </p>
+
+    <h2>4. Combat Side Stroke With Fins</h2>
+    <p>
+      Adding fins to the CSS increases speed and endurance while reducing effort over long distances. SEAL candidates train 
+      extensively with fins - especially in open water.
+    </p>
+
+    <h2>5. Open Water Swimming</h2>
+    <p>
+      SEALs train in rough ocean conditions, strong currents, and low visibility. They focus on navigation and teamwork to 
+      ensure mission success. If the first time you've ever been in open water is at BUD/S, that's bad news for you.
+    </p>
+
+    <h2>6. Lifesaving</h2>
+    <p>
+      SEALs learn how to rescue and transport injured teammates in the water. Techniques include buddy towing using the cross chest carry.
+    </p>
+
+    <h2>7. Breath Holding</h2>
+    <p>
+      Training includes static apnea (holding breath while stationary) and dynamic apnea (holding breath while moving). 
+      SEALs develop CO2 tolerance and mental resilience to operate in underwater missions. You must stay calm. 
+      Also, proper pullout technique is necessary to maximize your efficiency under the water.
+    </p>
+
+    <h2>8. Knots</h2>
+    <p>
+      Navy SEALs must tie and untie knots underwater, often in complete darkness. This skill is crucial for demolition, 
+      setting up underwater tools, and survival scenarios where securing equipment is essential. The 5 main knots are: 
+      bowline, right angle, square, clove hitch, and Beckett's bend.
+    </p>
+
+    <p><strong>Now, let's go more in depth on each of these swimming subjects…</strong></p>
+  </>
+);
+
 export const pstContent = (
   <>
     <p>

@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import blogPosts from '../data/blog-posts.json';
-import { pstContent, openWaterContent, buddyTowContent } from '../data/blog-content';
+import { navySealSwimTrainingContent, pstContent, openWaterContent, buddyTowContent } from '../data/blog-content';
 import './BlogPost.css';
 
 function BlogPost() {
@@ -22,6 +22,9 @@ function BlogPost() {
   
   let content;
   switch(slug) {
+    case 'navy-seal-swim-training':
+      content = navySealSwimTrainingContent;
+      break;
     case 'navy-seal-pst-swim':
       content = pstContent;
       break;
@@ -63,18 +66,7 @@ function BlogPost() {
             {content}
           </div>
           
-          <div className="post-cta">
-            <h3>What's Next?</h3>
-            <p>Join the Combat Side Stroke Workout Group</p>
-            <p>
-              To enhance your combat side stroke and make the most of your preparation, 
-              our training app can be an invaluable tool. Receive custom workouts, upload your stroke technique videos for evaluation, 
-              and learn everything there is to know about CSS from Coach Nate.
-            </p>
-            <a href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" target="_blank" rel="noopener noreferrer" className="btn btn-accent">
-              Download Training App
-            </a>
-          </div>
+
         </div>
       </section>
     </div>
