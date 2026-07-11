@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import blogPosts from '../data/blog-posts.json';
-import { navySealSwimTrainingContent, pstContent, openWaterContent, buddyTowContent } from '../data/blog-content';
+import { cssFasterContent, navySealSwimTrainingContent, pstContent, openWaterContent, buddyTowContent } from '../data/blog-content';
 import './BlogPost.css';
 
 function BlogPost() {
@@ -22,6 +22,9 @@ function BlogPost() {
   
   let content;
   switch(slug) {
+    case 'css-faster':
+      content = cssFasterContent;
+      break;
     case 'navy-seal-swim-training':
       content = navySealSwimTrainingContent;
       break;

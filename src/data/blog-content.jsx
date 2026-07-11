@@ -1,3 +1,130 @@
+export const cssFasterContent = (
+  <>
+    <h2>Proper Combat Side Stroke Technique</h2>
+    <p>
+      Combat Side Stroke (CSS) is a unique blend of freestyle and breaststroke. It's quiet and powerful. Having the proper 
+      technique and understanding how the stroke works is key to swimming fast. The way I think about it is in a sequence - 
+      a cadence of: <strong>"Big arm, little arm, together, shoot."</strong>
+    </p>
+
+    <h2>Combat Side Stroke Arm Pull</h2>
+    <p>
+      You can swim CSS on either side (right or left) and I like to teach everyone to be able to do so. It's nice to be able 
+      to switch sides during a long ocean swim. In Phase 3 of BUD/S, you have a 5.5 mile swim. That's roughly 8,800 meters. 
+      In a pool, if you did 88x100's on 2 minutes, it would take you about 3 hours.
+    </p>
+    <p>
+      If you swim on your left side, your left arm will be closer to the bottom of the pool. This is called your bottom arm 
+      or little arm. Your right arm is the top arm, also known as your big arm.
+    </p>
+    <ul>
+      <li><strong>Bottom Arm = Little Arm</strong></li>
+      <li><strong>Top Arm = Big Arm</strong></li>
+    </ul>
+
+    <h3>Bottom Arm / Little Arm</h3>
+    <p>
+      The bottom arm, I call the little arm, because for 99% of guys, they go faster with a shorter, smaller bottom arm. 
+      This is the biggest misconception when it comes to teaching combat side stroke - the bottom arm does not have to go 
+      all the way down. It can be just a little circular arm motion - a scull of sorts. When you pull your bottom arm all 
+      the way down to your side, you have both of your arms at your side, and your velocity plummets to nearly nothing. 
+      Guys that swim like this are easy to spot because they are so herky-jerky. If you hooked them up to a velocity meter, 
+      you would see a big spike up and a big spike down. When you shorten the bottom arm, you maintain speed better.
+    </p>
+    <p>
+      You should play with the length of your bottom arm. If you want to lengthen your stroke, make the bottom arm circle bigger. 
+      If you want to speed the stroke up, shorten the bottom arm. It's nice to have a longer stroke when you are doing 2 mile 
+      ocean swims every week in BUD/S. But if you are trying to post a really fast 450 for your PST test scores, then a shorter 
+      arm is almost always faster.
+    </p>
+    <p>
+      I think of the bottom arm as a scoop. One huge mistake I see all the time is guys using a straight arm. Don't do that. 
+      Straight arms are weak arms. You need an angle - a power angle. The bottom arm is a circular scoop. Make the circle bigger 
+      if you want to make your stroke longer.
+    </p>
+
+    <h3>Top Arm / Big Arm</h3>
+    <p>
+      The top arm, I call the big arm, because it's always a normal freestyle pull from top to bottom - it really can't or 
+      shouldn't be shortened. There are plenty of mistakes that can still be made, though.
+    </p>
+    <p>
+      The biggest mistake I see is guys not fully rotating over on to their stomach and really reaching out with their arm 
+      to lengthen the stroke and put the arm in a position to properly catch the water. I've seen a lot of guys with their 
+      big arm's elbow coming out of the water during their pull - which is not good.
+    </p>
+    <p>
+      Another popular mistake is pulling way outside their body or not pulling deep enough - both are something that can be 
+      fixed by rotating a little more, too. This can be helped with a slight flutter kick or two after your scissor kick. 
+      We will talk more about this later.
+    </p>
+    <p>
+      It is critical to get your fingers pointed towards the bottom of the pool, while keeping your elbow as high on the surface 
+      as possible, when you begin your top arm pull. This is called your catch - this is you putting your paddle in the proper 
+      position before pulling. Your fingers shouldn't be glued together or fully spread out - just a little spread in between your fingers.
+    </p>
+    <p>
+      During the recovery phase of the stroke, unlike freestyle, your arm won't come out of the water. If it does, you'll get 
+      yelled at. This typically happens as practice goes on, guys get tired and lazy and the arms begin to come out of the water 
+      to get away from the resistance. Keep it as close to the surface as possible while not having it come out. Long Dog Paddle 
+      drill is helpful in practicing this.
+    </p>
+
+    <h3>Bringing the Arms Together</h3>
+    <p><strong>"Big arm, little arm, together, shoot."</strong></p>
+    <p>
+      Your big arm and little arm should meet each other at about your shoulders. Another common mistake I see is guys leaving 
+      their top arm on their side after their big arm pull. Don't do that. It should always be moving. We always want to be 
+      propelling ourselves through the water or streamlining. "Shoot" is shooting both arms into streamline while scissor kicking. 
+      You are essentially kicking yourself into streamline, which is why Single Arm CSS is my favorite drill. We'll talk about 
+      that more and how it helps with the connection of your stroke.
+    </p>
+
+    <h2>Kicking During Combat Side Stroke</h2>
+    <p>Some people say you shouldn't flutter kick during CSS, and I highly disagree. But let's start with the scissors kick.</p>
+
+    <h3>Scissor Kicking</h3>
+    <p>
+      Like the CSS arm pull, the CSS leg kick has a bottom leg and a top leg. If you are swimming on your left side, your 
+      bottom leg is your left leg, your right leg is your top leg.
+    </p>
+    <p>
+      The bottom leg is your kicking a ball leg. It's your propulsion leg - perhaps the most important part of the entire stroke. 
+      You bring your heel to your butt and whip it back down like kicking a ball.
+    </p>
+    <p>
+      The top leg is your heel kick leg. Your knee will come up and you will heal kick back down.
+    </p>
+    <p>
+      Your legs do this at the same time, which makes you look like a scissor.
+    </p>
+    <p>
+      One of the biggest mistakes I see is having a huge massively wide kick. When you do this, you create a ton of drag which 
+      is suboptimal. Try keeping your knees together. While nearly impossible, give it a shot.
+    </p>
+    <p>
+      You should also begin stretching a lot more. You definitely do not stretch enough. Hip flexors and quads especially. 
+      Proper swimming technique is about being able to put your body in the most ideal positions that reduce drag.
+    </p>
+
+    <h3>Flutter Kicking</h3>
+    <p>
+      Now, some folks think doing flutter kicks after the scissor kick is dumb and wastes energy and oxygen. But that is just 
+      not true. If you want to sprint combat side stroke, then an aggressive flutter kick after a scissors kick is a must. 
+      But the flutter kick doesn't have to be that egregious during longer swims (same goes for freestyle). Instead, we are 
+      looking to use the flutter kicks to rotate our hips so that we can lengthen out the stroke, putting our arm in a better 
+      position to pull. If done properly, you should be doing a flutter kick at the same time as your big arm is anchoring the catch.
+    </p>
+    <p>
+      Some guys do find that a breaststroke kick is better for them instead of a scissors kick. A breaststroke kick, sometimes 
+      called a frog kick, is not usually faster for most but worth testing out. The watch never lies. We've had people drop 
+      30 seconds in a PST simply by changing from a scissor kick to a breaststroke kick. That being said, the breaststroke kick 
+      sucks for buddy towing. It is beneficial for you to learn both - plus the egg beater kick (sometimes called single leg 
+      breaststroke kick).
+    </p>
+  </>
+);
+
 export const navySealSwimTrainingContent = (
   <>
     <p>
