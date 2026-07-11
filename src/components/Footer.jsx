@@ -26,16 +26,7 @@ function Footer() {
               <Link to="/">Home</Link>
               <Link to="/technique">Technique</Link>
               <Link to="/blog">Blog</Link>
-              <Link to="/training">Training</Link>
             </nav>
-          </div>
-          
-          <div className="footer-section">
-            <h4>Get Training</h4>
-            <div className="footer-links">
-              <a href="https://apps.apple.com/jp/app/swimnerd/id1422771098?l=en-US" target="_blank" rel="noopener noreferrer">Training App</a>
-              <a href="https://swimpractice.com" target="_blank" rel="noopener noreferrer">Online Coaching</a>
-            </div>
           </div>
         </div>
         
