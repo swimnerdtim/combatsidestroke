@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import logo from '../assets/logo.png';
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <img src="/combatsidestroke/logo.png" alt="Combat Side Stroke" className="footer-logo-img" />
+            <img src={logo} alt="Combat Side Stroke" className="footer-logo-img" />
             <p className="footer-tagline">
               Become a force in the water.
             </p>

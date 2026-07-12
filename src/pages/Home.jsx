@@ -1,4 +1,5 @@
 import './Home.css';
+import natePhoto from '../assets/nate-photo.jpg';
 
 function Home() {
   return (
@@ -20,7 +21,7 @@ function Home() {
             <h3>I help people become <em>special</em> in the water.</h3>
           </div>
           <div className="nate-image">
-            <img src="/combatsidestroke/nate-photo.jpg" alt="Nate" />
+            <img src={natePhoto} alt="Nate" />
           </div>
         </div>
       </section>
