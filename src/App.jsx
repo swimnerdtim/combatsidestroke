@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/combatsidestroke">
+    <Router>
       <div className="app">
         <Header />
         <main className="main-content">
