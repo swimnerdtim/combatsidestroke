@@ -3,6 +3,10 @@ import './Footer.css';
 import logo from '../assets/logo.png';
 
 function Footer() {
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer className="footer">
       <div className="container">
@@ -24,10 +28,10 @@ function Footer() {
           <div className="footer-section">
             <h4>Quick Links</h4>
             <nav className="footer-nav">
-              <Link to="/">Home</Link>
-              <Link to="/technique">Technique</Link>
-              <Link to="/videos">Videos</Link>
-              <Link to="/blog">Blog</Link>
+              <Link to="/" onClick={handleLinkClick}>Home</Link>
+              <Link to="/technique" onClick={handleLinkClick}>Technique</Link>
+              <Link to="/videos" onClick={handleLinkClick}>Videos</Link>
+              <Link to="/blog" onClick={handleLinkClick}>Blog</Link>
             </nav>
           </div>
         </div>
