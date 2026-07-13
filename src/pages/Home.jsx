@@ -17,8 +17,7 @@ function Home() {
       <section className="nate-section">
         <div className="nate-container">
           <div className="nate-text">
-            <h2>What's up! My name is Nate.</h2>
-            <h3>I help people become <em>special</em> in the water.</h3>
+            <h2>👋 I'm Coach Nate and I help dudes pass BUDS by making the swim evolutions easy.</h2>
           </div>
           <div className="nate-image">
             <img src={natePhoto} alt="Nate" />
