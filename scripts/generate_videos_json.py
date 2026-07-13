@@ -1,31 +1,53 @@
 #!/usr/bin/env python3
 """
-Convert TikTok data to videos.json for Videos page
+Convert TikTok JSONL to videos.json for Videos page (chronological, no categories)
 """
 
 import json
 from pathlib import Path
+from datetime import datetime
 
 def main():
-    # Load TikTok blog posts
-    tiktok_file = Path(__file__).parent.parent / 'tiktok_blog_posts.json'
-    with open(tiktok_file) as f:
-        tiktok_posts = json.load(f)
+    # Load TikTok JSONL
+    jsonl_file = Path(__file__).parent.parent / 'tiktok_videos.jsonl'
     
-    # Convert to simpler videos format
     videos = []
-    for post in tiktok_posts:
-        video = {
-            "id": post['tiktok_id'],
-            "tiktok_id": post['tiktok_id'],
-            "title": post['title'][:100] if len(post['title']) > 10 else "",
-            "description": post['description'][:200] if len(post['description']) <= 200 else post['description'][:197] + "...",
-            "url": post['tiktok_url'],
-            "category": post['category'],
-            "views": post['views'],
-            "likes": post['likes']
-        }
-        videos.append(video)
+    with open(jsonl_file) as f:
+        for line in f:
+            if not line.strip():
+                continue
+            data = json.loads(line)
+            
+            # Get upload date
+            upload_date = data.get('upload_date', '20000101')
+            try:
+                date_obj = datetime.strptime(upload_date, '%Y%m%d')
+                date_str = date_obj.strftime('%Y-%m-%d')
+            except:
+                date_str = '2000-01-01'
+            
+            title = data.get('title', '').strip()
+            description = data.get('description', '').strip()
+            
+            video = {
+                "id": data['id'],
+                "tiktok_id": data['id'],
+                "title": title[:100] if len(title) > 10 else "",
+                "description": description[:200] if len(description) <= 200 else description[:197] + "...",
+                "url": data['webpage_url'],
+                "upload_date": date_str,
+                "timestamp": data.get('timestamp', 0),
+                "views": data.get('view_count', 0),
+                "likes": data.get('like_count', 0)
+            }
+            videos.append(video)
+    
+    # Sort by timestamp descending (newest first)
+    videos.sort(key=lambda x: x.get('timestamp', 0), reverse=True)
+    
+    # Remove timestamp (was just for sorting)
+    for video in videos:
+        del video['timestamp']
     
     # Save
     output_file = Path(__file__).parent.parent / 'src/data/videos.json'
@@ -34,6 +56,7 @@ def main():
     
     print(f"✅ Generated {len(videos)} videos")
     print(f"📝 Saved to: {output_file}")
+    print(f"📅 Date range: {videos[-1]['upload_date']} to {videos[0]['upload_date']}")
 
 if __name__ == '__main__':
     main()
