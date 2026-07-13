@@ -130,10 +130,14 @@
 }
 
 .nate-text h2 {
+  font-family: 'Saira Condensed', 'Oswald', sans-serif;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 900;
   color: #000;
   margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.2;
 }
 
 .nate-text h3 {
