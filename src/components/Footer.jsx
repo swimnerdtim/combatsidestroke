@@ -34,6 +34,14 @@ function Footer() {
               <Link to="/blog" onClick={handleLinkClick}>Blog</Link>
             </nav>
           </div>
+
+          <div className="footer-section">
+            <h4>Contact</h4>
+            <div className="footer-contact">
+              <a href="mailto:combatsidestroke@gmail.com">combatsidestroke@gmail.com</a>
+              <a href="tel:+17579556273">757-955-6273</a>
+            </div>
+          </div>
         </div>
         
         <div className="footer-bottom">
