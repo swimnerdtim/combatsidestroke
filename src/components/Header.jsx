@@ -16,6 +16,7 @@ function Header() {
         <nav className="main-nav">
           <Link to="/" className="nav-item">Home</Link>
           <Link to="/technique" className="nav-item">Technique</Link>
+          <Link to="/training" className="nav-item">Training</Link>
           <Link to="/videos" className="nav-item">Videos</Link>
           <Link to="/blog" className="nav-item">Blog</Link>
         </nav>
