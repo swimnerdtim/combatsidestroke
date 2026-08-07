@@ -30,6 +30,7 @@ function Footer() {
             <nav className="footer-nav">
               <Link to="/" onClick={handleLinkClick}>Home</Link>
               <Link to="/technique" onClick={handleLinkClick}>Technique</Link>
+              <Link to="/training" onClick={handleLinkClick}>Training</Link>
               <Link to="/videos" onClick={handleLinkClick}>Videos</Link>
               <Link to="/blog" onClick={handleLinkClick}>Blog</Link>
             </nav>
