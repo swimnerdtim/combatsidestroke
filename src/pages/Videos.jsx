@@ -8,7 +8,7 @@ function Videos() {
       <section className="page-header">
         <div className="container">
           <h1 className="page-title">TRAINING VIDEOS</h1>
-          <p className="page-subtitle">Combat side stroke technique, drills, and workouts from @combatsidestroke</p>
+          <p className="page-subtitle">Combat sidestroke technique, drills, and workouts from @combatsidestroke</p>
         </div>
       </section>
 

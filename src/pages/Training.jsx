@@ -20,7 +20,7 @@ function Training() {
         <div className="container">
           <h1 className="page-title">TRAINING WORKOUTS</h1>
           <p className="page-subtitle">
-            12 Week Combat Side Stroke Training Plan — 60 Workouts
+            12 Week Combat Sidestroke Training Plan — 60 Workouts
           </p>
         </div>
       </section>
@@ -49,7 +49,7 @@ function Training() {
 
           <div className="training-intro-note">
             <p>
-              This is the full 12-week plan — 60 progressive Combat Side Stroke workouts building
+              This is the full 12-week plan — 60 progressive Combat Sidestroke workouts building
               technique, conditioning, and comfort in the water for your PST and BUD/S preparation.
               Tap any workout to expand it.
             </p>
@@ -85,7 +85,7 @@ function Training() {
           </div>
 
           <p className="workout-credit">
-            12 Week Combat Side Stroke Training Plan · by Nathan Tschohl ·
+            12 Week Combat Sidestroke Training Plan · by Nathan Tschohl ·
             combatsidestroke@gmail.com · combatsidestroke.com
           </p>
         </div>

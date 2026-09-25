@@ -5,7 +5,7 @@ function Technique() {
     <div className="technique-page">
       <section className="page-header">
         <div className="container">
-          <h1 className="page-title">COMBAT SIDE STROKE TECHNIQUE</h1>
+          <h1 className="page-title">COMBAT SIDESTROKE TECHNIQUE</h1>
           <p className="page-subtitle">Master the stroke used by Navy SEALs and special operations forces</p>
         </div>
       </section>
@@ -15,16 +15,16 @@ function Technique() {
           <div className="technique-content">
             
             <div className="technique-section">
-              <h2>What is Combat Side Stroke?</h2>
+              <h2>What is Combat Sidestroke?</h2>
               <p>
-                Combat Side Stroke (CSS) is a unique blend of freestyle and breaststroke. It's quiet and powerful. 
+                Combat Sidestroke (CSS) is a unique blend of freestyle and breaststroke. It's quiet and powerful. 
                 Having the proper technique and understanding how the stroke works is key to swimming fast. 
                 The way I think about it is in a sequence - a cadence of: <strong>"Big arm, little arm, together, shoot."</strong>
               </p>
             </div>
 
             <div className="technique-section">
-              <h2>Combat Side Stroke Arm Pull</h2>
+              <h2>Combat Sidestroke Arm Pull</h2>
               <p>
                 You can swim CSS on either side (right or left) and I like to teach everyone to be able to do so. 
                 It's nice to be able to switch sides during a long ocean swim. In Phase 3 of BUD/S, you have a 5.5 mile swim. 
@@ -49,7 +49,7 @@ function Technique() {
               <h3>Bottom Arm / Little Arm</h3>
               <p>
                 The bottom arm, I call the little arm, because for 99% of guys, they go faster with a shorter, smaller bottom arm. 
-                This is the biggest misconception when it comes to teaching combat side stroke - the bottom arm does not have to go all the way down. 
+                This is the biggest misconception when it comes to teaching combat sidestroke - the bottom arm does not have to go all the way down. 
                 It can be just a little circular arm motion - a scull of sorts.
               </p>
               <p>
@@ -92,7 +92,7 @@ function Technique() {
             </div>
 
             <div className="technique-section">
-              <h2>Kicking During Combat Side Stroke</h2>
+              <h2>Kicking During Combat Sidestroke</h2>
               <p>
                 Some people say you shouldn't flutter kick during CSS, and I highly disagree. But let's start with the scissors kick.
               </p>
@@ -116,7 +116,7 @@ function Technique() {
             <div className="technique-section">
               <h3>Flutter Kicking</h3>
               <p>
-                If you want to sprint combat side stroke, then an aggressive flutter kick after a scissors kick is a must. 
+                If you want to sprint combat sidestroke, then an aggressive flutter kick after a scissors kick is a must. 
                 But the flutter kick doesn't have to be that egregious during longer swims.
               </p>
               <p>
